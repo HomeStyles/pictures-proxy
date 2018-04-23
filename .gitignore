@@ -1,0 +1,8 @@
+*.log
+.DS_Store
+node_modules
+
+# Compiled Dirs (http://nodejs.org/api/addons.html)
+build/
+public/bundle.js
+coverage/
