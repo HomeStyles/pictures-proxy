@@ -3,21 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Chairbnb</title>
   </head>
   <body>
-    <div id="Pictures"></div>
+    <div id="pictures"></div>
+    <div class="content-container">     
+      <div id="reservation"></div>    
+      <div id="description"></div>
+      <div id="Reviews"></div>    
+    </div>      
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    
+    <link href="http://localhost:3001/style.css" rel="stylesheet"></link>
     <script src="http://localhost:4212/bundle.js"></script>
-
+      <script src="http://localhost:3000/bundle.js"></script>
+      <script src="http://localhost:3001/bundle.js"></script>    
+      <script src="http://localhost:3002/bundle.js"></script>
+   
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
-    <script>
+    <!-- <script>
       ReactDOM.render(
         React.createElement(Images),
-        document.getElementById('Pictures')
-      );
+        document.getElementById('Pictures') -->
+      <!-- ); -->
     </script>
   </body>
 </html>
